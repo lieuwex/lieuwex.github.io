@@ -1,0 +1,59 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.centerContainer {
+    position: fixed;
+    margin-top: 10%;
+    width: 100%;
+}
+
+img.profileImage {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px white solid;
+    
+    -webkit-box-shadow: 0 50px 50px -50px #000000;
+    box-shadow: 0 40px 80px -40px #000000;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 75px;
+    margin-top: 10px;
+}
+
+div.iconsRow {
+    margin-top: -50px;
+    font-size: 25px;
+}
+
+a {
+    pointer-events: initial;
+    opacity: .5;
+    transition: .25s opacity ease-in-out;
+    cursor: pointer;
+    color: black;
+    
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
