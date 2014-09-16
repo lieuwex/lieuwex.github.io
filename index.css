@@ -28,7 +28,7 @@ img.profileImage {
     border-radius: 50%;
     border: 5px white solid;
     
-    -webkit-box-shadow: 0 50px 50px -50px #000000;
+    -webkit-box-shadow: 0 40px 80px -40px #000000;
     box-shadow: 0 40px 80px -40px #000000;
 }
 
@@ -38,8 +38,17 @@ h1 {
     margin-top: 10px;
 }
 
+h1.sub {
+    font-size: 40px;
+    margin-top: -60px;
+    
+    color: gray;
+    
+    /*font-weight: 400;*/
+}
+
 div.iconsRow {
-    margin-top: -50px;
+    margin-top: -20px;
     font-size: 25px;
 }
 
